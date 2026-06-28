@@ -1,0 +1,169 @@
+body {
+   background-image: url(Wavy-Lush-Green-Grass_-Live-Wallpaper_-1080p_-60fps.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+}
+
+.ava {
+    position: absolute;
+    border-radius: 47%;
+    width: 11%;
+    height: 20%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    left: 7%;
+    top: 3%;
+}
+
+.box1 {
+position: absolute;
+width:25%;
+height: 75%;
+background-color: rgba(0, 0, 0, 0.4755);
+border-radius: 20px;   
+
+
+}
+
+.box2 {
+position: absolute;
+width:73.5%;
+height: 98.5%;
+background-color: rgba(0, 0, 0, 0.4755);
+border-radius: 20px;
+left: 26%;
+
+}
+
+.line {
+display: block;
+width: 75%;
+height: 1px;
+border: 0;
+background-color: black;
+margin: 70% auto;
+}
+
+.h1 {
+    
+    position: absolute;
+    font-size: 200%;
+    top: 27%;
+    left: 6%;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) ;
+    max-width: 85%;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.h2 {
+ position: absolute;
+    font-size: 180%;
+    top: 33%;
+    left: 8.7%;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) ;
+    max-width: 85%;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.h3 {
+ position: absolute;
+    font-size: 180%;
+    top: 38%;
+    left: 2%;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) ;
+    max-width: 85%;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.spot {
+position: absolute;
+width: 10%;
+height: auto;
+top: 15.2%;
+left: 31%;
+border-radius: 25px;
+}
+
+.h6 {
+position: absolute;
+font-size: 200%;
+top: 1.4.5%;
+left: 33%;
+font-family: 'Segoe UI';
+font-weight: bold;
+color: black;
+text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) ;
+max-width: 85%;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.steam {
+position: absolute;
+width: 31.5%;
+height: auto;
+top: 15.2%;
+left: 43%;
+border-radius: 27px;
+}
+
+.h5 {
+position: absolute;
+font-size: 180%;
+top: 4%;
+left: 57%;
+font-family: 'Segoe UI';
+font-weight: bold;
+color: black;
+text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) ;
+max-width: 85%;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.dc {
+position: absolute;
+width: 10%;
+height: auto;
+top: 15%;
+left: 83%;
+border-radius:25px;
+}
+
+.h4 {
+    position: absolute;
+font-size: 180%;
+top: 5%;
+left: 85%;
+font-family: 'Segoe UI';
+font-weight: bold;
+color: black;
+text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) ;
+max-width: 85%;
+    white-space: normal;
+    word-break: break-word;
+}
+
+@media (max-width: 768px) {
+    .h1 .h2 .h6  {
+         font-size: 120% !important;
+}
+.h3 .h4 .h5 {
+    font-size: 95% !important ;
+}
+ }
